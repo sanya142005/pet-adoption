@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Haven: Where Every Paw Finds a Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Pet Haven</h1>
+    <p class="tagline">Where Every Paw Finds a Home</p>
+
+    <!-- Pet Adoption Search Tool -->
+    <section id="adoption-search">
+        <h2>Find Your Adoptable Pet</h2>
+        <div class="search-container">
+            <label for="pet-search">Search for pets by type:</label>
+            <input type="text" id="pet-search" placeholder="Search for dogs, cats, birds...">
+            <button id="searchBtn">Search</button>
+        </div>
+        <ul id="pet-results"></ul>
+    </section>
+
+    <!-- Profiles of Adoptable Pets -->
+    <section id="profiles">
+        <h2>Adoptable Pets</h2>
+        <div class="pet-profile">
+            <img src="dog1.jpeg" alt="Adoptable Dog">
+            <h3>Max</h3>
+            <p>Max is a 2-year-old friendly dog looking for a loving home.</p>
+        </div>
+        <div class="pet-profile">
+            <img src="cat1.jpeg" alt="Adoptable Cat">
+            <h3>Luna</h3>
+            <p>Luna is a gentle cat that enjoys lounging in the sun. She’s 3 years old.</p>
+        </div>
+    </section>
+
+    <!-- Pet Care Resources -->
+    <section id="pet-care">
+        <h2>Pet Care Resources</h2>
+        <p>Learn how to care for your pets. We provide training tips, health advice, and more!</p>
+        <ul>
+            <li><a href="https://www.thesprucepets.com/steps-to-train-your-dog-1118273">Dog Training Tips</a></li>
+            <li><a href="https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feeding-your-cat">Cat Nutrition Guide</a></li>
+            <li><a href="https://www.birdful.org/what-is-bird-health-care/">Bird Health and Care</a></li>
+        </ul>
+    </section>
+
+    <!-- Success Stories -->
+    <section id="success-stories">
+        <h2>Success Stories</h2>
+        <div class="story">
+            <h3>Bella's Happy Adoption</h3>
+            <p>Bella, a rescued dog, found her forever home last month! Her new family is overjoyed to have her.</p>
+        </div>
+        <div class="story">
+            <h3>Whiskers Finds His Family</h3>
+            <p>Whiskers, a senior cat, was adopted after months of waiting. His new owners adore him!</p>
+        </div>
+    </section>
+
+    <!-- Donations Section -->
+    <section id="donations">
+        <h2>Support Animal Shelters</h2>
+        <p>Your donations help provide food, shelter, and medical care to animals in need.</p>
+        <form action="#" method="post" id="donationForm">
+            <label for="donation-amount">Donation Amount:</label>
+            <input type="number" id="donation-amount" name="amount" placeholder="$10" required>
+            <input type="submit" value="Donate Now">
+        </form>
+    </section>
+
+    <!-- Script for Search and Validation -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,195 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #00aaff;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.tagline {
+    font-size: 1.5rem;
+    color: #00d4ff;
+    margin-bottom: 20px;
+    animation: slideIn 1s ease-in-out;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #00d4ff;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+section {
+    padding: 40px 20px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #1a1a1a, #292929);
+    box-shadow: 10px 10px 30px #0a0a0a, -10px -10px 30px #3a3a3a;
+    max-width: 1000px;
+    margin: 20px auto;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+/* Search Tool */
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-container input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #00d4ff;
+    background-color: #1e1e1e;
+    color: white;
+    transition: border-color 0.3s ease;
+}
+
+.search-container input[type="text"]:focus {
+    border-color: #0088cc;
+}
+
+.search-container button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #00aaff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-container button:hover {
+    background-color: #0088cc;
+}
+
+/* Pet Profiles */
+.pet-profile {
+    display: inline-block;
+    background: #181818;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.pet-profile:hover {
+    transform: scale(1.05);
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.6);
+}
+
+.pet-profile img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.pet-profile img:hover {
+    transform: scale(1.1);
+}
+
+.pet-profile h3 {
+    color: #00d4ff;
+    margin-top: 15px;
+}
+
+.pet-profile p {
+    color: #cccccc;
+}
+
+/* Pet Care Section */
+#pet-care ul {
+    list-style: none;
+    padding: 0;
+}
+
+#pet-care li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #222222;
+    border-radius: 10px;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+#pet-care li:hover {
+    background-color: #333333;
+}
+
+/* Link Colors */
+#pet-care a {
+    color: yellow; /* Link color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#pet-care a:hover {
+    color: yellow; /* Hover color */
+}
+
+#pet-care a:visited {
+    color: green; /* After clicked (visited) color */
+}
+
+/* Success Stories */
+.story {
+    background-color: #252525;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.story:hover {
+    transform: scale(1.02);
+    background-color: #2d2d2d;
+}
+
+.story h3 {
+    color: #00d4ff;
+}
+
+.story p {
+    color: #cccccc;
+}
+
+/* Donation Form */
+form {
+    background-color: #191919;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+form:hover {
+    transform
